@@ -1,0 +1,129 @@
+@import url("../../App.css");
+
+#sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #05445e;
+  padding-top: 90px;
+  position: fixed;
+  box-sizing: border-box;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  position: fixed;
+}
+
+#sidebar #user-img {
+  text-align: center;
+}
+
+#sidebar #user-img img {
+  border-radius: 50%;
+  outline: 3px solid #0575e6;
+  position: relative;
+  top: 3px;
+  margin-bottom: 10px;
+}
+
+#sidebar .user-title {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  font-family: var(--h5FontStyle);
+  margin-bottom: 20px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: #8d8989;
+}
+
+#sidebar .user-title h5 {
+  font-size: medium;
+}
+
+#sidebar .user-title span {
+  font-size: larger;
+}
+
+#sidebar h3 span {
+  margin-right: 18px;
+  position: relative;
+  top: 4px;
+}
+
+#sidebar h3 .arrow-down1 {
+  position: relative;
+  left: 65px;
+}
+
+#sidebar h3 .arrow-down2 {
+  position: relative;
+  left: 53px;
+}
+
+#sidebar h3 .arrow-down3 {
+  position: relative;
+  left: 93px;
+}
+
+#sidebar h3 .arrow-down4 {
+  position: relative;
+  left: 98px;
+}
+
+#sidebar h3 {
+  width: 100%;
+  font-family: var(--h3FontStyle);
+  font-size: 17px;
+  font-weight: normal;
+  padding: 10px 0 10px 16px;
+  margin-bottom: 8px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#sidebar h3:hover {
+  background-color: #013044;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Application Dropdown Items */
+#sidebar .application-items {
+  /* display: none;
+  opacity: 0; */
+  position: relative;
+  bottom: 10px;
+}
+
+#sidebar .application-items h5 span {
+  margin-right: 22px;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+
+#sidebar .application-items h5 {
+  width: 100%;
+  font-family: var(--h5FontStyle);
+  font-size: 14px;
+  font-weight: normal;
+  padding: 8px 0 8px 16px;
+  /* margin-bottom: 1px; */
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#sidebar .application-items h5:hover {
+  background-color: #013044;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* End of Application Dropdown Items */

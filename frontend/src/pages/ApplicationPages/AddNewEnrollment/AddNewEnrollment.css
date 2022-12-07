@@ -1,0 +1,84 @@
+@import url("../../../App.css");
+
+/* Main Wrapper Container */
+#add-new-enrollment-wrapper {
+  width: 75%;
+  height: 530px;
+  background-color: #fff;
+  padding: 10px 30px;
+  position: absolute;
+  top: 80px;
+  margin-left: 270px;
+  z-index: 0;
+  border-radius: 3px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+}
+
+#add-new-enrollment-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+
+#add-new-enrollment-wrapper .form-group {
+  margin-top: 20px;
+}
+
+#add-new-enrollment-wrapper .form-group div {
+  margin-bottom: 12px;
+}
+
+#add-new-enrollment-wrapper .form-group div.tally-sheet {
+  margin-top: 12px;
+}
+
+#add-new-enrollment-wrapper .form-group input,
+#add-new-enrollment-wrapper .form-group select {
+  width: 80%;
+}
+
+#add-new-enrollment-wrapper .form-group div.data {
+  display: inline;
+  width: 100%;
+  margin-left: auto;
+  position: relative;
+  left: 1px;
+  margin-right: 16px;
+}
+
+#add-new-enrollment-wrapper .form-group div.data input {
+  width: 25.5%;
+}
+
+#add-new-enrollment-wrapper .form-group input:focus {
+  border: 2px solid #0575e6;
+}
+
+#add-new-enrollment-wrapper .form-group .submit .pure-button {
+  display: inline-block;
+  position: relative;
+  left: 175px;
+  margin-top: 20px;
+  padding: 10px 46px;
+  color: #fff;
+  background-color: #0575e6;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#add-new-enrollment-wrapper .form-group .submit .pure-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0863be;
+}
+
+
+
+/* End of Main Wrapper Container */

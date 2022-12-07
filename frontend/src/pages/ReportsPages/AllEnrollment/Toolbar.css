@@ -1,0 +1,146 @@
+.demo-toolbar {
+  padding: 7px;
+}
+
+.demo-toolbar .theme-name {
+  margin-right: 7px;
+  text-transform: none;
+  display: none;
+  color: #fff;
+}
+
+.demo-toolbar .btn-theme {
+  width: 60px;
+  margin: 7px 7px 7px 0px;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding: 7px;
+  background-color: #F5F5F5;
+  border: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.demo-toolbar .btn-theme:hover {
+  border: none;
+}
+
+.demo-toolbar .btn-theme.btn-active {
+  width: 150px;
+  position: relative;
+}
+
+.demo-toolbar .btn-theme.btn-active::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 7px);
+  width: 15px;
+  height: 7px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.demo-toolbar .btn-theme.btn-active .theme-name {
+  display: inline-block;
+}
+
+.demo-toolbar .btn-theme .theme-name-short {
+  color: #fff;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.demo-toolbar .striped-lightblue .theme-name-short,
+.demo-toolbar .striped-lightblue:hover,
+.demo-toolbar .striped-lightblue.btn-active,
+.demo-toolbar .striped-lightblue.btn-active::after {
+  background: repeating-linear-gradient(to bottom,
+      #0277BD,
+      #0277BD 50%,
+      #0090DE 50%,
+      #0090DE);
+}
+
+.demo-toolbar .bright-orange .theme-name-short,
+.demo-toolbar .bright-orange:hover,
+.demo-toolbar .bright-orange.btn-active,
+.demo-toolbar .bright-orange.btn-active::after {
+  background: #FB7841;
+}
+
+.demo-toolbar .yellow .theme-name-short,
+.demo-toolbar .yellow:hover,
+.demo-toolbar .yellow.btn-active,
+.demo-toolbar .yellow.btn-active::after {
+  background: #FBC02D;
+}
+
+.demo-toolbar .green .theme-name-short,
+.demo-toolbar .green:hover,
+.demo-toolbar .green.btn-active,
+.demo-toolbar .green.btn-active::after {
+  background: #69b01e;
+}
+
+.demo-toolbar .striped-teal .theme-name-short,
+.demo-toolbar .striped-teal:hover,
+.demo-toolbar .striped-teal.btn-active,
+.demo-toolbar .striped-teal.btn-active::after {
+  background: repeating-linear-gradient(to bottom,
+      #007A6E,
+      #007A6E 50%,
+      #009688 50%,
+      #009688);
+}
+
+.demo-toolbar .purple .theme-name-short,
+.demo-toolbar .purple:hover,
+.demo-toolbar .purple.btn-active,
+.demo-toolbar .purple.btn-active::after {
+  background: #7E57C2;
+}
+
+.demo-toolbar .mac-os .theme-name-short,
+.demo-toolbar .mac-os:hover,
+.demo-toolbar .mac-os.btn-active,
+.demo-toolbar .mac-os.btn-active::after {
+  background: #AAAEB5;
+}
+
+.demo-toolbar .soft-default .theme-name-short,
+.demo-toolbar .soft-default:hover,
+.demo-toolbar .soft-default.btn-active,
+.demo-toolbar .soft-default.btn-active::after {
+  background: #CDCDCF;
+}
+
+.demo-toolbar .midnight .theme-name-short,
+.demo-toolbar .midnight:hover,
+.demo-toolbar .midnight.btn-active,
+.demo-toolbar .midnight.btn-active::after {
+  background: #111111;
+}
+
+.demo-toolbar .black-orange .theme-name-short,
+.demo-toolbar .black-orange:hover,
+.demo-toolbar .black-orange.btn-active,
+.demo-toolbar .black-orange.btn-active::after {
+  background: linear-gradient(to left, #F56B30 50%, #222 50%);
+}
+
+.demo-toolbar .btn-theme.black-orange:hover .theme-name-short,
+.demo-toolbar .btn-theme.black-orange.btn-active .theme-name-short,
+.demo-toolbar .btn-theme.striped-teal:hover .theme-name-short,
+.demo-toolbar .btn-theme.striped-teal.btn-active .theme-name-short,
+.demo-toolbar .btn-theme.striped-lightblue:hover .theme-name-short,
+.demo-toolbar .btn-theme.striped-lightblue.btn-active .theme-name-short {
+  background: transparent;
+}

@@ -1,0 +1,87 @@
+@import url("../../../App.css");
+
+/* Update Data Wrapper */
+#update-enrollment-data-wrapper {
+  width: 75%;
+  height: 500px;
+  background-color: #fff;
+  padding: 30px;
+  position: absolute;
+  top: 100px;
+  margin-left: 270px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+}
+
+#update-enrollment-data-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+#update-enrollment-data-wrapper .form-group {
+  margin-top: 30px;
+}
+
+#update-enrollment-data-wrapper .form-group div {
+  margin-bottom: 12px;
+}
+
+#update-enrollment-data-wrapper .form-group input {
+  width: 80%;
+}
+
+#update-enrollment-data-wrapper .form-group input:focus {
+  border: 2px solid #0575e6;
+}
+
+#update-enrollment-data-wrapper .form-group .update .pure-button {
+  display: inline-block;
+  position: relative;
+  left: 380px;
+  margin-top: 12px;
+  padding: 10px 46px;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#update-enrollment-data-wrapper .form-group .save button {
+  display: inline-block;
+  position: relative;
+  left: 550px;
+  bottom: 63px;
+  margin-top: 12px;
+  padding: 10px 46px;
+  color: #fff;
+  background-color: #0575e6;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#update-enrollment-data-wrapper .form-group .update .pure-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ee5757;
+}
+
+#update-enrollment-data-wrapper .form-group .save .pure-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0863be;
+}
+
+/* End of Update Data Wrapper */

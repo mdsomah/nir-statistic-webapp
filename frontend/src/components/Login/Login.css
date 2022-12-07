@@ -1,0 +1,82 @@
+@import url("../../App.css");
+
+#login-wrapper {
+  width: 30%;
+  font-family: var(--h3FontFamily);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 50px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#login-wrapper form div input {
+  box-sizing: border-box;
+  padding-left: 35px;
+}
+
+/* ::-webkit-input-placeholder {
+  position: relative;
+  left: 20px;
+}
+
+::-moz-placeholder {
+  position: relative;
+  left: 20px;
+}
+
+:-ms-input-placeholder {
+  position: relative;
+  left: 20px;
+}
+
+:-moz-placeholder {
+  position: relative;
+  left: 20px;
+} */
+
+#login-wrapper span.person {
+  position: relative;
+  top: 63px;
+  right: 135px;
+}
+
+#login-wrapper span.lock {
+  position: relative;
+  top: 62px;
+  right: 135px;
+}
+
+#login-wrapper .button {
+  margin-top: 20px;
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+  background: #00f260;
+  background: -webkit-linear-gradient(to top, #0575e6, #00f260);
+  background: linear-gradient(to top, #0575e6, #00f260);
+  /* background-color: #0d6efd; */
+  border-radius: 5px;
+  color: #ffffff;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#login-wrapper .button:hover {
+  color: #ffffff;
+  background-color: #0575e6;
+  /* background-color: #00f260; */
+  cursor: pointer;
+}

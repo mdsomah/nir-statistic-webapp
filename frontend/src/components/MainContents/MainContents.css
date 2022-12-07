@@ -1,0 +1,248 @@
+@import url("../../App.css");
+@import url("../Footer/Footer.css");
+
+/* Dashboard Section */
+#dashboard-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 13px;
+  margin-right: 20px;
+}
+
+#dashboard-section .dashboard-item {
+  width: 255px;
+  height: 116px;
+  background: #00f260;
+  background: -webkit-linear-gradient(to top, #0575e6, #00f260);
+  background: linear-gradient(to top, #0575e6, #00f260);
+  color: rgb(255, 255, 255);
+  padding: 5px 18px;
+  border-radius: 5px;
+}
+
+#dashboard-section .dashboard-item h3,
+#dashboard-section .dashboard-item h5 {
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  bottom: 18px;
+}
+
+#dashboard-section .dashboard-item h3 {
+  font-size: 32px;
+  font-family: var(--h3FontFamily);
+  font-weight: 600;
+  position: relative;
+  bottom: 26px;
+}
+
+#dashboard-section .dashboard-item .dashboard-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#dashboard-section .dashboard-item .dashboard-items .percent a {
+  color: #fff;
+}
+
+#dashboard-section .dashboard-item h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* End of Dashboard */
+
+/* Statistics Section */
+#statistics-section {
+  display: grid;
+  grid-template-columns: 40% 57%;
+  /* height: 500px; */
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 9px;
+}
+
+#statistics-section .statistic {
+  color: green;
+  background: #fff;
+  padding: 30px 20px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 3px;
+}
+
+#statistics-section .statistic h3 {
+  font-size: 20px;
+  font-family: var(--h3FontFamily);
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+#statistics-section .statistic select {
+  padding: 3px 45px 3px 5px;
+  font-size: 14px;
+}
+
+#statistics-section .graph {
+  color: green;
+  background: #fff;
+  padding: 30px 20px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 3px;
+}
+
+#statistics-section .graph h3 {
+  font-size: 20px;
+  font-family: var(--h3FontFamily);
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+/* #statistics-section #county-selection {
+  display: none;
+} */
+
+/* End of Statistics Section */
+
+/* Table Section */
+#data-table {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+#data-table h3 {
+  margin-top: 20px;
+  color: #0575e6;
+  /* color: #111; */
+}
+
+#data-table table {
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+th {
+  background: #8d8989;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  color: #111;
+}
+
+td,
+th {
+  padding: 7px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.total th {
+  width: 104px;
+  position: relative;
+  top: 10px;
+}
+
+.total th:nth-child(2) {
+  font-weight: normal;
+  color: #111;
+  background: #eee;
+}
+
+/* End of Table Section */
+
+/* Map & Activities Section */
+.map-activities-section {
+  display: grid;
+  grid-template-columns: 57% 40%;
+  /* height: 500px; */
+  gap: 20px;
+  /* position: relative;
+  top: 30px; */
+  margin-top: 30px;
+  margin-right: 9px;
+}
+
+.map-activities-section h3 {
+  color: green;
+  font-size: 20px;
+  font-family: var(--h3FontFamily);
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.map-activities-section .map {
+  background-color: #fff;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 3px;
+  padding: 30px 20px;
+}
+
+.map-activities-section .map .map-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-activities-section .map a {
+  color: #8d8989;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.map-activities-section .activities {
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 3px;
+}
+
+.map-activities-section .activities .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-activities-section .activities .title a {
+  color: #8d8989;
+}
+
+.map-activities-section .activities .title ul {
+  padding: 10px;
+}
+
+.map-activities-section .activities .contents .contents-items {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  gap: 12px;
+}
+
+/* End of Map & Activities Section */
+
+/* Team Lead Section */
+.team-lead {
+  width: 98%;
+  /* min-height: 60vh; */
+  background-color: #fff;
+  padding: 30px 20px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 3px;
+  /* position: relative;
+  top: 850px; */
+  margin-top: 30px;
+}
+
+.team-lead h3 {
+  color: green;
+  font-size: 20px;
+  font-family: var(--h3FontFamily);
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* End of Team Lead Section */

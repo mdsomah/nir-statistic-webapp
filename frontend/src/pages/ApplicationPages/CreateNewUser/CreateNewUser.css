@@ -1,0 +1,66 @@
+@import url("../../../App.css");
+
+/* New User Wrapper */
+#new-user-wrapper {
+  width: 75%;
+  height: 500px;
+  background-color: #fff;
+  padding: 30px;
+  position: absolute;
+  top: 100px;
+  margin-left: 270px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+}
+
+#new-user-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+#new-user-wrapper .pure-form {
+  margin-top: 20px;
+}
+
+#new-user-wrapper .pure-form input:focus,
+#new-user-wrapper .pure-form input:focus {
+  border: 2px solid #0575e6;
+}
+
+#new-user-wrapper .pure-form .pure-button {
+  color: #fff;
+  background-color: #0575e6;
+  padding: 10px 46px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  left: 400px;
+  bottom: 80px;
+}
+
+#new-user-wrapper .pure-form .pure-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0863be;
+}
+
+/* #new-user-wrapper .pure-form span.icons {
+  position: relative;
+  left: 616px;
+  bottom: 36px;
+} */
+
+/* #new-user-wrapper .pure-form span.show {
+  position: relative;
+  left: 20px;
+} */
+
+
+/* End of New User Wrapper */

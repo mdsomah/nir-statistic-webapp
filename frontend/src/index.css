@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ececec;
+  color: #8d8989;
+  font-family: var(--h1FontStyle);
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+/* Back Button */
+.back-button {
+  padding: 6px 25px;
+  color: #fff;
+  background-color: #0575e6;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  transition: all 0.7s ease-in-out;
+}

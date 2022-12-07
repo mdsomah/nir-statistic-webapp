@@ -1,0 +1,32 @@
+@import url("../../App.css");
+
+#navbar {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #111;
+}
+
+#navbar .main-navbar-items {
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+#navbar .main-navbar-items .navbar-items {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 2px;
+}
+
+#navbar .main-navbar-items .navbar-items .logo span {
+  margin-left: 40px;
+}
+
+#navbar .main-navbar-items .navbar-items .login {
+  position: relative;
+  top: 10px;
+}
+
+#navbar .main-navbar-items .navbar-items .login span {
+  color: #111;
+}

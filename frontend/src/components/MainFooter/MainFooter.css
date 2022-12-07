@@ -1,0 +1,104 @@
+@import url("../../App.css");
+
+#home-footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-family: var(--h3FontStyle);
+}
+
+#home-footer .developer span {
+  display: inline-block;
+  color: #0575e6;
+  cursor: pointer;
+}
+
+#home-footer .developer .card img {
+  border-radius: 50%;
+  outline: 2px solid #0575e6;
+  width: 150px;
+  position: relative;
+  top: 10px;
+  left: 25%;
+}
+
+#home-footer .developer .card .card-body h5,
+#home-footer .developer .card .card-body p {
+  text-align: center;
+}
+
+#home-footer .developer .card .card-body .profile-social span {
+  margin-left: 10px;
+  position: relative;
+  left: 18%;
+  color: #8d8989;
+}
+
+#home-footer .developer .card .card-body .profile-social span .facebook,
+#home-footer .developer .card .card-body .profile-social span .linkedin,
+#home-footer .developer .card .card-body .profile-social span .twitter,
+#home-footer .developer .card .card-body .profile-social span .github {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#home-footer .developer .card .card-body .profile-social span .facebook:hover {
+  color: #4267B2;
+  cursor: pointer;
+}
+
+#home-footer .developer .card .card-body .profile-social span .linkedin:hover {
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+#home-footer .developer .card .card-body .profile-social span .twitter:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+#home-footer .developer .card .card-body .profile-social span .github:hover {
+  color: #171515;
+  cursor: pointer;
+}
+
+#home-footer .social span {
+  margin-left: 10px;
+  margin-right: 3px;
+  position: relative;
+  bottom: 2px;
+}
+
+#home-footer .social span .facebook,
+#home-footer .social span .linkedin,
+#home-footer .social span .twitter,
+#home-footer .social span .github {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#home-footer .social span .facebook:hover {
+  color: #4267B2;
+  cursor: pointer;
+}
+
+#home-footer .social span .linkedin:hover {
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+#home-footer .social span .twitter:hover {
+  color: #1DA1F2;
+  cursor: pointer;
+}
+
+#home-footer .social span .github:hover {
+  color: #171515;
+  cursor: pointer;
+}

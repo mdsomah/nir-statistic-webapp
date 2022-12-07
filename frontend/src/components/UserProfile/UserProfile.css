@@ -1,0 +1,65 @@
+@import url("../../App.css");
+
+/* User Profile */
+#user-profile-wrapper {
+  width: 75%;
+  /* height: 530px; */
+  background-color: #fff;
+  padding: 10px 30px;
+  position: absolute;
+  top: 80px;
+  margin-left: 270px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+}
+
+#user-profile-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+  margin-top: 10px;
+  text-align: start;
+}
+
+#user-profile-wrapper .user-img {
+  margin-top: 30px;
+}
+
+#user-profile-wrapper .user-img span.camera {
+  width: 160px;
+  color: #111;
+  /* background-color: #8d8989; */
+  background-color: #e7e5e5;
+  padding: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 192px;
+  cursor: pointer;
+}
+
+#user-profile-wrapper .user-img img {
+  border-radius: 50%;
+  outline: 3px solid #0575e6;
+}
+
+#user-profile-wrapper .user-img .upload {
+  display: block;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+#user-profile-wrapper form {
+  width: 80%;
+  /* margin-left: 300px; */
+  position: relative;
+  bottom: 100px;
+  right: 0px;
+  left: 285px;
+}
+
+#user-profile-wrapper form button {
+  margin-top: 10px;
+}
+
+/* End of User Profile */

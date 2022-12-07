@@ -1,0 +1,58 @@
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 98%;
+  background-color: aliceblue;
+  padding: 50px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+#footer .developer strong a {
+  color: #0575e6;
+  text-decoration: none;
+}
+
+#footer .developer strong a:hover {
+  color: #0575e6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#footer .social span {
+  margin-left: 10px;
+  margin-right: 3px;
+  position: relative;
+  bottom: 2px;
+}
+
+#footer .social span .facebook,
+#footer .social span .linkedin,
+#footer .social span .twitter,
+#footer .social span .github {
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#footer .social span span.facebook:hover {
+  color: #4267B2;
+  cursor: pointer;
+}
+
+#footer .social span span.linkedin:hover {
+  color: #0e76a8;
+  cursor: pointer;
+}
+
+#footer .social span span.twitter:hover {
+  color: #00acee;
+  cursor: pointer;
+}
+
+#footer .social span span.github:hover {
+  color: #171515;
+  cursor: pointer;
+}

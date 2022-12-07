@@ -1,0 +1,53 @@
+@import url("../../App.css");
+
+#recent-activities-wrapper {
+  width: 40%;
+  /* margin-left: 200px; */
+  height: 540px;
+  background-color: #fff;
+  padding: 30px 30px;
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  bottom: 3px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 10px;
+}
+
+#recent-activities-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+#recent-activities-wrapper h3 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#recent-activities-wrapper .recent-activities-wrapper-items {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 30px;
+}
+
+#recent-activities-wrapper .recent-activities-wrapper-items .recent-activities-wrapper-content {
+  position: relative;
+  right: 30px;
+}
+
+#recent-activities-wrapper .recent-activities-wrapper-items .recent-activities-wrapper-text-small {
+  position: relative;
+  bottom: 15px;
+}
+
+#recent-activities-wrapper .recent-activities-back-button {
+  margin-top: 30px;
+  position: relative;
+  left: 370px;
+}

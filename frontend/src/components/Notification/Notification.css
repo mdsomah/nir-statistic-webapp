@@ -1,0 +1,56 @@
+@import url("../../App.css");
+
+.notification-wrapper {
+  width: 40%;
+  /* margin-left: 200px; */
+  height: 540px;
+  background-color: #fff;
+  padding: 30px 30px;
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  bottom: 3px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 10px;
+}
+
+.notification-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+.notification-wrapper h3 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.notification-wrapper .notification-wrapper-items {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 30px;
+}
+
+.notification-wrapper .notification-wrapper-items .notification-wrapper-content {
+  position: relative;
+  right: 30px;
+}
+
+.notification-wrapper .notification-wrapper-items .notification-wrapper-text-small {
+  position: relative;
+  bottom: 15px;
+}
+
+.notification-wrapper table thead tr th {
+  color: #111;
+}
+
+/* Notification Back Button */
+.notification-back-button {
+  margin-top: 20px;
+}

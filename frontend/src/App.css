@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600&family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  --h1FontStyle: "Roboto";
+  --h2FontStyle: "Open Sans";
+  --h3FontStyle: "Lato";
+  --h4FontStyle: "Poppins";
+  --h5FontStyle: "Montserrat";
+}
+
+#wrapper {
+  position: absolute;
+  top: 100px;
+  margin-left: 270px;
+}

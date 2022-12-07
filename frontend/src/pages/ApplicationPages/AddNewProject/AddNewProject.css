@@ -1,0 +1,81 @@
+@import url("../../../App.css");
+
+/* Main Wrapper Container */
+#add-new-project-wrapper {
+  width: 75%;
+  height: 600px;
+  background-color: #fff;
+  padding: 10px 30px;
+  position: absolute;
+  top: 80px;
+  margin-left: 270px;
+  z-index: 0;
+  border-radius: 3px;
+  box-shadow: 5px 10px 5px #1977cc1a;
+}
+
+#add-new-project-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+#add-new-project-wrapper .form-group {
+  margin-top: 20px;
+}
+
+#add-new-project-wrapper .form-group div {
+  margin-bottom: 12px;
+}
+
+#add-new-project-wrapper .form-group div.tally-sheet {
+  margin-top: 12px;
+}
+
+#add-new-project-wrapper .form-group input,
+#add-new-project-wrapper .form-group select {
+  width: 80%;
+}
+
+#add-new-project-wrapper .form-group div.data {
+  display: inline;
+  width: 100%;
+  margin-left: auto;
+  position: relative;
+  left: 1px;
+  margin-right: 10px;
+}
+
+#add-new-project-wrapper .form-group div.data input {
+  width: 26%;
+}
+
+#add-new-project-wrapper .form-group input:focus {
+  border: 2px solid #0575e6;
+}
+
+#add-new-project-wrapper .form-group .submit .pure-button {
+  display: inline-block;
+  position: relative;
+  left: 175px;
+  margin-top: 20px;
+  padding: 10px 46px;
+  color: #fff;
+  background-color: #0575e6;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#add-new-project-wrapper .form-group .submit .pure-button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0863be;
+}
+
+/* End of Main Wrapper Container */

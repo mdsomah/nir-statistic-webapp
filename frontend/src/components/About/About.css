@@ -1,0 +1,17 @@
+@import url("../../App.css");
+
+#about-wrapper {
+  width: 1000px;
+  height: 400px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+
+#about-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}

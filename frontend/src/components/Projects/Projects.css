@@ -1,0 +1,42 @@
+@import url("../../App.css");
+
+#projects-wrapper {
+  width: 50%;
+  /* margin-left: 200px; */
+  height: 540px;
+  background-color: #fff;
+  padding: 30px 30px;
+  position: absolute;
+  top: 75px;
+  left: 320px;
+  bottom: 3px;
+  z-index: 0;
+  box-shadow: 5px 10px 5px #1977cc1a;
+  border-radius: 10px;
+}
+
+#projects-wrapper h5 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-weight: normal;
+}
+
+#projects-wrapper h3 {
+  font-size: var(--h5FontStyle);
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#projects-wrapper table thead tr th {
+  color: #111;
+}
+
+/* Project Back Button */
+#projects-wrapper .project-back-button {
+  margin-top: 30px;
+  position: relative;
+  left: 530px;
+}
