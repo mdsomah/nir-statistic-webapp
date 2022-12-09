@@ -1,1 +1,1 @@
-# nir-statistic-webapp
+# NIR-Statistic-WebApp
